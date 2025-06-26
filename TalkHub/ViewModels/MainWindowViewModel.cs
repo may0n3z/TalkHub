@@ -15,9 +15,9 @@ namespace TalkHub
 
         private void ExecuteLogin(object parameter)
         {
-            // Создаем и показываем окно UserInfoWindow
-            UserInfoWindow userInfoWindow = new UserInfoWindow();
-            userInfoWindow.Show();
+            // Создаем и показываем окно TableWindow
+            TableWindow TableWindow = new TableWindow();
+            TableWindow.Show();
 
             // Закрываем текущее окно
             if (parameter is Window currentWindow)
